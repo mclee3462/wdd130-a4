@@ -1,11 +1,10 @@
 
 :root {
-    --primary-color: #007BFF;
-    --secondary-color: #6C757D;
-    --background-color: #F8F9FA;
-    --font-color: #212529;
+    --main-color: #ffcc00; /* Yellow */
+    --secondary-color: #0055ff; /* Blue */
+    --accent-color: #ff5733; /* Orange */
+    --background-color: #f0f0f0; /* Light Gray */
 }
-
 * {
     margin: 0;
     padding: 0;
