@@ -26,6 +26,10 @@ h1, h2 {
 header {
     text-align: center;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px;
 }
 
 header img {
@@ -36,8 +40,9 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
 }
-
 
 .hero {
     position: relative;
@@ -89,11 +94,46 @@ section img {
     margin: 10px;
 }
 
+.history-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.adventure-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.adventure-section figure {
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.adventure-section img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.adventure-section figcaption {
+    font-style: italic;
+    margin-top: 5px;
+    color: #333;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
     background-color: var(--secondary-color);
     color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 footer a img {
@@ -103,6 +143,7 @@ footer a img {
 
 footer a {
     text-decoration: none;
+    margin-left: 10px;
 }
 
 footer a:hover img {
